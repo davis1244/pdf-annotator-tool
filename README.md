@@ -1,35 +1,32 @@
 # PDF Annotation Tool
 
-A custom PDF annotation tool built with JavaScript, HTML, CSS, and Node.js. This tool allows users to highlight text and add side comments to PDF documents, enhancing study efficiency. Users can save and retrieve annotated PDF documents, ensuring data persistence and easy access to study materials.
+A lightweight web application for annotating PDFs with highlights and comments.
 
 ## Features
 
-- **PDF Rendering:** Display PDF documents within the browser using PDF.js.
-- **Highlighting:** Highlight sections of the PDF for emphasis.
-- **Comments:** Add side comments to specific areas of the PDF.
-- **Annotation Saving:** Save annotations locally on the server for later retrieval.
-- **Responsive Design:** Interactive and responsive web application ensuring a seamless user experience.
-
-## Demo
-
-![PDF Annotation Tool Demo](demo.gif)
+- **Highlight Text**: Mark important text directly on the PDF.
+- **Add Comments**: Attach comments to specific areas on the PDF.
+- **Save Annotations**: Save all annotations for future reference (server-side saving functionality is pending implementation).
 
 ## Technologies Used
 
-- **Frontend:** JavaScript, HTML, CSS
-- **Backend:** Node.js, Express.js
-- **Libraries:** PDF.js, Multer
+- **Frontend:**
+  - **HTML5**: For structuring the web application.
+  - **CSS3**: For styling and layout.
+  - **JavaScript**: For interactive elements and core functionality.
 
-## Installation
+- **Libraries:**
+  - **PDF.js**: For rendering and interacting with PDF files. You'll need the latest version from [cdnjs](https://cdnjs.com/libraries/pdf.js).
 
-### Prerequisites
+- **Development Tools:**
+  - **npm**: For package management, though not strictly needed for this project, it's good practice for managing dependencies.
 
-- [Node.js](https://nodejs.org/) installed on your machine.
+## Setup
 
-### Steps
+To get started with the PDF Annotation Tool, follow these steps:
 
-1. **Clone the Repository**
+### Clone the Repository
 
-   ```bash
-   git clone https://github.com/yourusername/pdf-annotation-tool.git
-   cd pdf-annotation-tool
+```bash
+git clone [your-github-repo-url]
+cd pdf-annotation-tool
