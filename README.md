@@ -65,11 +65,4 @@ The current implementation includes a `save` endpoint for annotations. To actual
 ## Development
 
 - **Editing**: Modify `script.js` for JavaScript functionality, `styles.css` for visuals, and `index.html` for structure.
-- **Testing**: Use browsers like Chrome or Firefox for testing. Check for cross-browser compatibility if necessary.
-
-## Future Enhancements
-
-- Implement real server-side saving of annotations.
-- Add user authentication for saving annotations.
-- Implement drag functionality for highlights and comments.
-- Enhance UI/UX for better user interaction.
+- **Testing**: Use browsers like Chrome or Firefox for testing.
