@@ -37,4 +37,34 @@ You'll need to ensure you have the latest version of `pdf.js` loaded from CDN or
 
 ```bash
 npm install pdfjs-dist
+```
+However, for this project, we're using the CDN version, so no npm installation is strictly necessary.
 
+## Running the Application
+Since this is a basic HTML/JS project, you can run it directly from your web browser:
+
+Open index.html in any modern browser.
+
+Server-Side Functionality (Optional)
+The current implementation includes a save endpoint for annotations. To actually save these, you'll need:
+
+A server (e.g., Node.js with Express).
+A database or file system to store the annotations.
+
+Note: The server-side saving functionality is not implemented yet. This README assumes basic knowledge of setting up a simple backend server.
+
+How to Use
+Upload PDF: Use the file input to select a PDF.
+Highlight Text: Click the "Highlight" button and then click on the PDF to mark text.
+Add Comments: Use the "Add Comment" button, click on the PDF, enter your comment in the modal, and save.
+Save Annotations: Currently, clicking the "Save Annotations" button simulates saving. Implement server-side functionality to actually save.
+
+Development
+Editing: Modify script.js for JavaScript functionality, styles.css for visuals, and index.html for structure.
+Testing: Use browsers like Chrome or Firefox for testing. Check for cross-browser compatibility if necessary.
+
+Future Enhancements
+Implement real server-side saving of annotations.
+Add user authentication for saving annotations.
+Implement drag functionality for highlights and comments.
+Enhance UI/UX for better user interaction.
