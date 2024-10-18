@@ -30,3 +30,7 @@ To get started with the PDF Annotation Tool, follow these steps:
 ```bash
 git clone [your-github-repo-url]
 cd pdf-annotation-tool
+```
+###Install Dependencies
+You'll need to ensure you have the latest version of pdf.js loaded from CDN or installed locally. For local installation:
+-**npm install pdfjs-dist**
