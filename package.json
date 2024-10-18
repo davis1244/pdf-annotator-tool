@@ -1,0 +1,15 @@
+{
+  "name": "pdf-annotation-tool",
+  "version": "1.0.0",
+  "description": "A custom PDF annotation tool built with JavaScript, HTML, CSS, and Node.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Davis Stapleton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5"
+  }
+}
